@@ -1,0 +1,91 @@
+{
+  "slug": "sapphire-shores",
+  "name": "Sapphire Shores",
+  "status": "active",
+  "order": 10,
+  "tagline": "Ten Intracoastal residences across the street from the beach",
+  "propertyType": "Five-story townhome-style condominiums",
+  "address": { "street": "19631 Gulf Blvd", "city": "Indian Shores", "state": "FL" },
+  "geo": { "lat": 27.8552, "lng": -82.8461 },
+  "price": { "display": "$2,275,000 – $3,250,000", "from": 2275000, "to": 3250000, "label": "Luxury coastal residences" },
+  "stats": {
+    "bedrooms": "5 + den",
+    "bathrooms": "4",
+    "sqft": "4,000+",
+    "residences": "10",
+    "completion": "Q1 2027"
+  },
+  "summary": "Sapphire Shores is a collection of only 10 brand-new, five-story townhome-style condominiums on the Intracoastal Waterway in Indian Shores, directly across Gulf Boulevard from the beach. Each residence offers five bedrooms plus a den, four baths and more than 4,000 square feet with double rooftop decks. Owners may rent for 1–7 day stays, self-manage or choose a manager, or live there full time.",
+  "heroImage": { "src": "/projects/sapphire-shores/gulf-view-north.webp", "alt": "Aerial view of Sapphire Shores on the Intracoastal Waterway in Indian Shores with the Gulf of Mexico beyond" },
+  "cardImage": { "src": "/projects/sapphire-shores/south-rendering.webp", "alt": "Rendering of the five-story Sapphire Shores residences framed by palm trees" },
+  "gallery": [
+    { "src": "/projects/sapphire-shores/south-rendering.webp", "alt": "Sapphire Shores south elevation rendering with rooftop decks and palm trees" },
+    { "src": "/projects/sapphire-shores/gulf-view-north.webp", "alt": "Aerial view looking north over the Sapphire Shores site toward the Gulf beaches" },
+    { "src": "/projects/sapphire-shores/north-rendering.webp", "alt": "Sapphire Shores north elevation rendering on Gulf Boulevard" },
+    { "src": "/projects/sapphire-shores/intracoastal-view.webp", "alt": "Intracoastal Waterway view from Sapphire Shores" },
+    { "src": "/projects/sapphire-shores/gulf-view-south.webp", "alt": "Aerial view looking south along the Indian Shores coastline" },
+    { "src": "/projects/sapphire-shores/water-world.webp", "alt": "Aerial view of the Intracoastal waterfront and the Gulf of Mexico at Indian Shores" }
+  ],
+  "floorplans": [
+    { "src": "/projects/sapphire-shores/floorplans/unit-1-1st-floor.webp", "label": "Unit 1 · 1st Floor", "alt": "Sapphire Shores Unit 1 first floor plan" },
+    { "src": "/projects/sapphire-shores/floorplans/unit-1-2nd-floor.webp", "label": "Unit 1 · 2nd Floor", "alt": "Sapphire Shores Unit 1 second floor plan" },
+    { "src": "/projects/sapphire-shores/floorplans/unit-1-3rd-floor.webp", "label": "Unit 1 · 3rd Floor", "alt": "Sapphire Shores Unit 1 third floor plan" },
+    { "src": "/projects/sapphire-shores/floorplans/unit-1-4th-floor.webp", "label": "Unit 1 · 4th Floor", "alt": "Sapphire Shores Unit 1 fourth floor plan" },
+    { "src": "/projects/sapphire-shores/floorplans/unit-1-5th-floor.webp", "label": "Unit 1 · 5th Floor", "alt": "Sapphire Shores Unit 1 fifth floor plan" },
+    { "src": "/projects/sapphire-shores/floorplans/unit-2-1st-floor.webp", "label": "Unit 2 · 1st Floor", "alt": "Sapphire Shores Unit 2 first floor plan" },
+    { "src": "/projects/sapphire-shores/floorplans/unit-2-2nd-floor.webp", "label": "Unit 2 · 2nd Floor", "alt": "Sapphire Shores Unit 2 second floor plan" },
+    { "src": "/projects/sapphire-shores/floorplans/unit-2-3rd-floor.webp", "label": "Unit 2 · 3rd Floor", "alt": "Sapphire Shores Unit 2 third floor plan" },
+    { "src": "/projects/sapphire-shores/floorplans/unit-2-4th-floor.webp", "label": "Unit 2 · 4th Floor", "alt": "Sapphire Shores Unit 2 fourth floor plan" },
+    { "src": "/projects/sapphire-shores/floorplans/unit-2-5th-floor.webp", "label": "Unit 2 · 5th Floor", "alt": "Sapphire Shores Unit 2 fifth floor plan" },
+    { "src": "/projects/sapphire-shores/floorplans/unit-5-1st-floor.webp", "label": "Unit 5 · 1st Floor", "alt": "Sapphire Shores Unit 5 first floor plan" },
+    { "src": "/projects/sapphire-shores/floorplans/unit-5-2nd-floor.webp", "label": "Unit 5 · 2nd Floor", "alt": "Sapphire Shores Unit 5 second floor plan" },
+    { "src": "/projects/sapphire-shores/floorplans/unit-5-3rd-floor.webp", "label": "Unit 5 · 3rd Floor", "alt": "Sapphire Shores Unit 5 third floor plan" },
+    { "src": "/projects/sapphire-shores/floorplans/unit-5-4th-floor.webp", "label": "Unit 5 · 4th Floor", "alt": "Sapphire Shores Unit 5 fourth floor plan" },
+    { "src": "/projects/sapphire-shores/floorplans/unit-5-5th-floor.webp", "label": "Unit 5 · 5th Floor", "alt": "Sapphire Shores Unit 5 fifth floor plan" }
+  ],
+  "highlights": [
+    { "icon": "gem", "title": "Only 10 Residences", "text": "Brand-new five-story coastal homes directly on the Intracoastal Waterway." },
+    { "icon": "map-pin", "title": "Prime Location", "text": "Indian Shores Intracoastal waterfront, directly across Gulf Boulevard from the beach." },
+    { "icon": "home", "title": "STR Friendly", "text": "1–7 day rentals. Self-manage or choose a manager; primary residence also possible." },
+    { "icon": "landmark", "title": "Tax Planning", "text": "Potential cost segregation and bonus depreciation on qualifying property. CPA review required." },
+    { "icon": "trending-up", "title": "Income Potential", "text": "$253,000 third-party estimated annual gross rental revenue (not guaranteed). DSCR options available." }
+  ],
+  "amenities": [
+    { "icon": "building", "label": "Double rooftop decks" },
+    { "icon": "waves", "label": "Pool, hot tub & BBQ area" },
+    { "icon": "fish", "label": "Community Intracoastal fishing dock" },
+    { "icon": "palm", "label": "Across the street from the beach" },
+    { "icon": "map-pin", "label": "Quiet, peaceful Indian Shores location" }
+  ],
+  "details": {
+    "deposit": "$10,000",
+    "downPayment": "20%",
+    "financing": "Cash, conventional, second-home or DSCR financing",
+    "dscr": true,
+    "rentalMinimum": "1–7 days",
+    "personalUse": "No restrictions on personal use. Can be a full-time residence.",
+    "management": "No required manager; owners may self-manage."
+  },
+  "income": {
+    "figure": "$253,000",
+    "label": "Third-party estimated annual gross rental revenue",
+    "source": "Stay Dream Rentals",
+    "note": "Estimate only. Not guaranteed."
+  },
+  "tax": { "note": "Potential cost segregation and bonus depreciation on qualifying property. CPA review required." },
+  "faqs": [
+    { "q": "Can Sapphire Shores be rented short term?", "a": "Yes. Sapphire Shores permits 1–7 day rentals. Owners may self-manage or choose any manager, and may also use the home as a full-time residence." },
+    { "q": "How much is the deposit at Sapphire Shores?", "a": "The initial deposit is $10,000 with a total down payment of 20%, subject to the purchase contract." },
+    { "q": "What financing is available at Sapphire Shores?", "a": "Buyers may purchase with cash, conventional, second-home or DSCR financing, subject to lender approval." },
+    { "q": "When will Sapphire Shores be completed?", "a": "Estimated completion is Q1 2027." },
+    { "q": "What is the projected rental income at Sapphire Shores?", "a": "A third-party estimate from Stay Dream Rentals projects approximately $253,000 in annual gross rental revenue per residence. This is an estimate and is not guaranteed." }
+  ],
+  "lastVerified": "2026-10-09",
+  "internalNotes": [
+    "Deposit and down payment: confirm against contract.",
+    "Completion Q1 2027: verify schedule.",
+    "Revenue $253K: verify source and assumptions.",
+    "Cost segregation field was blank in intake doc; tax note uses selling point #4.",
+    "Rendering mockup showed $2,500,000 top price; intake doc says $3,250,000 (intake used)."
+  ]
+}

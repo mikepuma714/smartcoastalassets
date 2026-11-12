@@ -1,0 +1,20 @@
+{
+  "slug": "coastal-elegance",
+  "name": "Coastal Elegance at Snug Harbor",
+  "status": "draft",
+  "order": 40,
+  "address": { "street": "13655 Gulf Blvd", "city": "Madeira Beach", "state": "FL", "zip": "33708" },
+  "heroImage": { "src": "/projects/coastal-elegance/front-of-building.webp", "alt": "Front of the Coastal Elegance at Snug Harbor building in Madeira Beach" },
+  "gallery": [
+    { "src": "/projects/coastal-elegance/front-of-building.webp", "alt": "Front of the Coastal Elegance building" },
+    { "src": "/projects/coastal-elegance/dock-pool-rendering.webp", "alt": "Dock and pool rendering at Coastal Elegance" },
+    { "src": "/projects/coastal-elegance/gulf-view.webp", "alt": "Gulf view from Coastal Elegance" },
+    { "src": "/projects/coastal-elegance/intracoastal-view.webp", "alt": "Intracoastal view from Coastal Elegance" },
+    { "src": "/projects/coastal-elegance/living-open-401.webp", "alt": "Open living area in residence 401" },
+    { "src": "/projects/coastal-elegance/kitchen-401.webp", "alt": "Kitchen in residence 401" },
+    { "src": "/projects/coastal-elegance/primary-bedroom-401.webp", "alt": "Primary bedroom in residence 401" }
+  ],
+  "internalNotes": [
+    "DRAFT: waiting on intake write-up. Do not set to active until price, details and map coordinates are supplied."
+  ]
+}

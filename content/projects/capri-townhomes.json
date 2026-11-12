@@ -1,0 +1,69 @@
+{
+  "slug": "capri-townhomes",
+  "name": "Capri Townhomes",
+  "status": "active",
+  "order": 20,
+  "tagline": "Seven move-in-ready townhomes one block from the beach",
+  "propertyType": "Townhomes",
+  "address": { "street": "11605 First Street East", "city": "Treasure Island", "state": "FL", "zip": "33706" },
+  "geo": { "lat": 27.775402, "lng": -82.774416 },
+  "price": { "display": "$1,690,000", "from": 1690000, "label": "Move-in ready" },
+  "stats": {
+    "bedrooms": "5",
+    "bathrooms": "4",
+    "sqft": "~3,000",
+    "residences": "7",
+    "completion": "Completed · Move-in ready"
+  },
+  "summary": "Capri Townhomes is a completed, move-in-ready collection of just seven five-bedroom, four-bath townhomes of approximately 3,000 square feet in Treasure Island, one block from the beach. Very rare zoning allows owners to homestead or to rent nightly and weekly, and each home has a private rooftop deck built to support a hot tub.",
+  "heroImage": { "src": "/projects/capri-townhomes/beach-view.webp", "alt": "Aerial view of Capri Townhomes one block from Treasure Island beach at sunset" },
+  "gallery": [
+    { "src": "/projects/capri-townhomes/beach-view.webp", "alt": "Aerial view of Capri Townhomes and Treasure Island beach" },
+    { "src": "/projects/capri-townhomes/intracoastal-view.webp", "alt": "Intracoastal view near Capri Townhomes in Treasure Island" },
+    { "src": "/projects/capri-townhomes/private-rooftop-balconey.webp", "alt": "Private rooftop deck at Capri Townhomes" },
+    { "src": "/projects/capri-townhomes/living-room-open-living.webp", "alt": "Open-concept living room at Capri Townhomes" },
+    { "src": "/projects/capri-townhomes/kitchen.webp", "alt": "Kitchen at Capri Townhomes" },
+    { "src": "/projects/capri-townhomes/primary-bedroom.webp", "alt": "Primary bedroom at Capri Townhomes" }
+  ],
+  "highlights": [
+    { "icon": "gem", "title": "Only 7 Residences", "text": "Very rare zoning allows homestead or nightly/weekly rentals." },
+    { "icon": "map-pin", "title": "One Block to the Beach", "text": "One block from a TripAdvisor Top 10 U.S. beach, close to John's Pass Village and Downtown St. Pete." },
+    { "icon": "home", "title": "STR Friendly", "text": "Nightly rentals, 1–7 days. Live in it or rent it; self-manage or choose any manager." },
+    { "icon": "landmark", "title": "Tax Planning", "text": "Potential short-term-rental tax treatment and cost segregation. A CPA must determine eligibility." },
+    { "icon": "trending-up", "title": "Strong Income Potential", "text": "$215,000 projected gross rental revenue, verified by other residences in the complex. DSCR financing available." }
+  ],
+  "amenities": [
+    { "icon": "palm", "label": "One block from a TripAdvisor Top 10 U.S. beach" },
+    { "icon": "waves", "label": "Community pool" },
+    { "icon": "building", "label": "Private rooftop decks able to support hot tubs" },
+    { "icon": "compass", "label": "Walk to John's Pass Village" },
+    { "icon": "car", "label": "Private parking plus a garage" },
+    { "icon": "map-pin", "label": "Quick drive to Downtown St. Pete" }
+  ],
+  "details": {
+    "deposit": "$10,000",
+    "downPayment": "20%",
+    "financing": "Cash, conventional or DSCR financing (subject to lender approval)",
+    "dscr": true,
+    "rentalMinimum": "1–7 days",
+    "personalUse": "May occupy as a primary residence or rent it out.",
+    "management": "No required management company. Self-manage or choose a manager."
+  },
+  "income": {
+    "figure": "$215,000",
+    "label": "Projected annual gross rental revenue",
+    "source": "Stay Dreams Rentals / Resort Rentals, verified by other residences in the complex",
+    "note": "Projection only. Not guaranteed."
+  },
+  "tax": { "note": "May qualify, with CPA guidance, for 100% bonus depreciation. Potential short-term-rental tax treatment and cost segregation; a CPA must determine eligibility." },
+  "faqs": [
+    { "q": "Can Capri Townhomes be rented nightly?", "a": "Yes. Capri Townhomes allows nightly and weekly rentals (1–7 day stays). Owners may also homestead the property as a primary residence." },
+    { "q": "Is a management company required at Capri Townhomes?", "a": "No. There is no required management company. Owners may self-manage or choose any manager." },
+    { "q": "How close is Capri Townhomes to the beach?", "a": "Capri Townhomes is one block from Treasure Island beach and close to John's Pass Village and Downtown St. Pete." },
+    { "q": "What is the projected rental revenue at Capri Townhomes?", "a": "Projected gross rental revenue is $215,000 per year, per Stay Dreams Rentals / Resort Rentals and verified by other residences in the complex. Projections are not guaranteed." },
+    { "q": "Are Capri Townhomes move-in ready?", "a": "Yes. Construction is complete and the townhomes are move-in ready." }
+  ],
+  "links": [],
+  "lastVerified": "2026-11-02",
+  "internalNotes": ["Zillow link placeholder in intake doc; add URL when available."]
+}

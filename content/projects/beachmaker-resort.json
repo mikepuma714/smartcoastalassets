@@ -1,0 +1,80 @@
+{
+  "slug": "beachmaker-resort",
+  "name": "The Beachmaker Resort",
+  "status": "active",
+  "order": 5,
+  "tagline": "Autograph Collection Residences on Madeira Beach",
+  "propertyType": "Marriott Autograph Collection branded condo-hotel and penthouse residences",
+  "address": { "street": "15000 Madeira Way", "city": "Madeira Beach", "state": "FL", "zip": "33708" },
+  "geo": { "lat": 27.8018, "lng": -82.8005 },
+  "price": { "display": "From ~$837,000 to $4.4M", "from": 837000, "to": 4400000, "label": "Autograph Collection Residences" },
+  "stats": {
+    "residences": "161 + 10 penthouses",
+    "completion": "Target opening 2029",
+    "residenceTypes": "King, Double Queen, Cabana, 1-Bedroom Villa & Hospitality suites; Branded Penthouses"
+  },
+  "summary": "The Beachmaker, Autograph Collection Residences brings Marriott's Autograph Collection to Madeira Beach: 161 hotel residences plus 10 branded penthouse residences on a 2.5-acre resort site, about a mile from John's Pass. Owners enjoy two pools, restaurants and bars, event venues and concierge service, with professional resort management by Davidson Hospitality and Marriott booking channels. Early buyers are welcomed into The Founders Club.",
+  "heroImage": { "src": "/projects/beachmaker-resort/front-view.webp", "alt": "Rendering of The Beachmaker, Autograph Collection Residences at sunset in Madeira Beach" },
+  "gallery": [
+    { "src": "/projects/beachmaker-resort/front-view.webp", "alt": "The Beachmaker front entrance rendering at sunset" },
+    { "src": "/projects/beachmaker-resort/rear-view.webp", "alt": "The Beachmaker rear view rendering with pool deck and gardens" },
+    { "src": "/projects/beachmaker-resort/pool.webp", "alt": "Resort pool rendering at The Beachmaker" },
+    { "src": "/projects/beachmaker-resort/sunset.webp", "alt": "Sunset over the Gulf from The Beachmaker pool terrace" },
+    { "src": "/projects/beachmaker-resort/cabana-beach-view.webp", "alt": "Cabana suite beach view rendering at The Beachmaker" },
+    { "src": "/projects/beachmaker-resort/lobby.webp", "alt": "Lobby rendering at The Beachmaker" },
+    { "src": "/projects/beachmaker-resort/restaurant-dusk.webp", "alt": "Restaurant at dusk rendering at The Beachmaker" },
+    { "src": "/projects/beachmaker-resort/king-suite.webp", "alt": "Typical King suite rendering at The Beachmaker" }
+  ],
+  "highlights": [
+    { "icon": "gem", "title": "Marriott-Branded Scarcity", "text": "The only Marriott-branded luxury resort residences on Madeira Beach, with full ownership." },
+    { "icon": "map-pin", "title": "2.5-Acre Resort Site", "text": "Marriott Autograph Collection with Davidson Hospitality management, about a mile from John's Pass." },
+    { "icon": "home", "title": "Nightly Resort Rentals", "text": "Nightly stays through the resort rental program, with up to 90 owner-use days per year." },
+    { "icon": "landmark", "title": "Tax Planning", "text": "Potential cost segregation and bonus depreciation on qualifying assets. CPA review required." },
+    { "icon": "trending-up", "title": "Owner Revenue Share", "text": "Incentive offering of a 60% owner revenue share, subject to the management agreement. DSCR financing available." }
+  ],
+  "amenities": [
+    { "icon": "waves", "label": "Two pools (adult club pool & family pool) with cabanas" },
+    { "icon": "utensils", "label": "Cozina fine dining, Bom Bom Pool Bar, Lobby Bar & Archies Bodega coffee house" },
+    { "icon": "dumbbell", "label": "Fitness center, concierge & valet" },
+    { "icon": "users", "label": "Event venues for approximately 200 and 100 guests" },
+    { "icon": "key", "label": "Founders Club: first selection, luxury furniture package & full amenity access" },
+    { "icon": "sparkles", "label": "Owner-use VIP privileges under the resort program" }
+  ],
+  "details": {
+    "deposit": "$5,000 reservation deposit with a 15-day right of rescission",
+    "downPayment": "20% placed in escrow for select Founders Club residences",
+    "financing": "Cash, conventional and DSCR financing (subject to approval)",
+    "dscr": true,
+    "rentalMinimum": "Nightly",
+    "personalUse": "Up to 90 owner-use days per year; no blackout dates under the management program.",
+    "management": "Mandatory resort management and Marriott Autograph Collection booking channels. Not self-managed."
+  },
+  "income": {
+    "label": "Income projections",
+    "note": "A conversation with the management company can be arranged for all income projections. Incentive offering: 60% owner revenue share, subject to the management agreement."
+  },
+  "tax": { "note": "Potential cost segregation and bonus depreciation on qualifying components. CPA review required." },
+  "process": [
+    { "title": "Select", "text": "Choose your preferred residence and review the floor plans and features available." },
+    { "title": "Reserve", "text": "Reserve with a refundable deposit and take time to review all documentation." },
+    { "title": "Secure", "text": "Secure your residence with a purchase deposit as one of The Beachmaker's founding owners." },
+    { "title": "Close", "text": "Complete your purchase at closing and take ownership." },
+    { "title": "Enjoy", "text": "Begin your Beachmaker lifestyle." }
+  ],
+  "faqs": [
+    { "q": "What is The Beachmaker in Madeira Beach?", "a": "The Beachmaker, Autograph Collection Residences is a Marriott Autograph Collection branded condo-hotel at 15000 Madeira Way, Madeira Beach, Florida, with 161 hotel residences and 10 branded penthouse residences. It has a target opening of 2029." },
+    { "q": "How much does a residence at The Beachmaker cost?", "a": "Pricing ranges from approximately $837,000 to $4.4 million." },
+    { "q": "Can I rent my Beachmaker residence?", "a": "Yes. Residences participate in nightly resort rentals through mandatory resort management and Marriott Autograph Collection booking channels. Self-management is not permitted. Owners receive up to 90 owner-use days per year." },
+    { "q": "What is the owner revenue share at The Beachmaker?", "a": "The incentive offering is a 60% owner revenue share, subject to the management agreement. A conversation with the management company can be arranged for income projections." },
+    { "q": "What deposit is required to reserve at The Beachmaker?", "a": "A $5,000 initial reservation deposit with a 15-day right of rescission. Select Founders Club residences require only a 20% deposit placed in escrow." },
+    { "q": "What is The Founders Club?", "a": "The Founders Club is for The Beachmaker's earliest owners and includes first selection of residences, a luxury furniture package and full access to resort amenities." }
+  ],
+  "links": [{ "label": "TheBeachmaker.com", "url": "https://thebeachmaker.com/" }],
+  "disclaimer": "ORAL REPRESENTATIONS CANNOT BE RELIED UPON AS CORRECTLY STATING REPRESENTATIONS OF THE DEVELOPER. FOR CORRECT REPRESENTATIONS, MAKE REFERENCE TO THE BROCHURE AND TO THE DOCUMENTS REQUIRED BY SECTION 718.503, FLORIDA STATUTES, TO BE FURNISHED BY A DEVELOPER TO A BUYER OR LESSEE. SKETCHES AND ILLUSTRATIONS ARE ARTIST'S RENDERINGS. DETAILS AND FIELD VARIATIONS ARE SUBJECT TO CHANGE. ALL DIMENSIONS ARE APPROXIMATE, AND ALL FLOOR PLANS AND DEVELOPMENT PLANS ARE SUBJECT TO CHANGE.",
+  "lastVerified": "2026-10-09",
+  "internalNotes": [
+    "Intake listed expected completion as 'Q4 with a target 2029 opening'; displayed as target opening 2029.",
+    "Projected gross revenue field said 'PDF link?'; no figure published.",
+    "Suite floor plans are on thebeachmaker.com; add to floorplans when files are provided."
+  ]
+}

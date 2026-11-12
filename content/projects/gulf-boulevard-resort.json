@@ -1,0 +1,8 @@
+{
+  "slug": "gulf-boulevard-resort",
+  "name": "Beachfront Resort at 14500 Gulf Boulevard",
+  "status": "draft",
+  "order": 60,
+  "address": { "street": "14500 Gulf Blvd", "city": "Madeira Beach", "state": "FL", "zip": "33708" },
+  "internalNotes": ["DRAFT: future beachfront resort. Add name, intake details, photos and verified map coordinates before setting status to active."]
+}

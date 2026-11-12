@@ -1,0 +1,190 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-950: #071322;
+  --color-navy-900: #0c1f35;
+  --color-navy-800: #132c49;
+  --color-navy-700: #1d3c5f;
+  --color-navy-600: #2c5279;
+  --color-sand-50: #fbf9f5;
+  --color-sand-100: #f6f1e8;
+  --color-sand-200: #ece3d3;
+  --color-sand-300: #ddd0b8;
+  --color-gold-300: #d9bf8f;
+  --color-gold-400: #c6a46c;
+  --color-gold-500: #b08d57;
+  --color-gold-600: #94733f;
+  --color-mist-50: #f2f6f9;
+  --color-mist-100: #e5edf3;
+  --color-ink: #1b2532;
+  --color-muted: #5d6877;
+
+  --font-display: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  --ease-luxe: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-sand-50 font-sans text-ink antialiased;
+    text-rendering: optimizeLegibility;
+    font-variant-numeric: lining-nums;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-display text-navy-900;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+
+  ::selection {
+    @apply bg-gold-300 text-navy-950;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-gold-500;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply text-[0.7rem] font-medium tracking-[0.28em] text-gold-600 uppercase;
+  }
+
+  .container-luxe {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-12;
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 rounded-sm bg-gold-500 px-7 py-3.5 text-xs font-semibold tracking-[0.2em] text-white uppercase transition-colors duration-300 hover:bg-gold-600;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-sm border border-current px-7 py-3.5 text-xs font-semibold tracking-[0.2em] uppercase transition-colors duration-300;
+  }
+
+  .hairline {
+    @apply h-px w-full bg-gradient-to-r from-transparent via-gold-400/60 to-transparent;
+  }
+}
+
+/* Lenis smooth scroll */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* Coastal map markers */
+.scam-town {
+  pointer-events: none;
+  color: rgba(255, 255, 255, 0.92);
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  text-shadow: 0 1px 6px rgba(7, 19, 34, 0.9);
+  white-space: nowrap;
+}
+.scam-marker {
+  position: relative;
+  display: block;
+  width: 46px;
+  height: 46px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+.scam-marker__ring {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border: 2.5px solid #fff;
+  border-radius: 9999px;
+  background: var(--color-navy-800);
+  box-shadow: 0 6px 20px rgba(7, 19, 34, 0.45), 0 0 0 4px rgba(198, 164, 108, 0.35);
+  transition: transform 0.45s var(--ease-luxe), box-shadow 0.45s var(--ease-luxe);
+}
+.scam-marker__ring img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.scam-marker__label {
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 10px);
+  display: flex;
+  flex-direction: column;
+  padding: 7px 12px;
+  border-radius: 2px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(7, 19, 34, 0.3);
+  text-align: left;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-6px, -50%);
+  transition: opacity 0.35s var(--ease-luxe), transform 0.35s var(--ease-luxe);
+}
+.scam-marker__label strong {
+  color: var(--color-navy-900);
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+.scam-marker__label small {
+  color: var(--color-muted);
+  font-size: 11px;
+}
+.scam-marker.is-active .scam-marker__ring,
+.scam-marker:focus-visible .scam-marker__ring {
+  transform: scale(1.35);
+  box-shadow: 0 10px 28px rgba(7, 19, 34, 0.5), 0 0 0 5px rgba(198, 164, 108, 0.8);
+}
+.scam-marker.is-active .scam-marker__label,
+.scam-marker:focus-visible .scam-marker__label {
+  opacity: 1;
+  transform: translate(8px, -50%);
+}
+@media (hover: none) {
+  .scam-marker {
+    width: 52px;
+    height: 52px;
+  }
+}
+
+/* MapLibre */
+.maplibregl-ctrl-attrib {
+  font-size: 10px;
+}
+.maplibregl-canvas:focus {
+  outline: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

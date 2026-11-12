@@ -1,0 +1,8 @@
+{
+  "slug": "sandalwood",
+  "name": "Sandalwood",
+  "status": "draft",
+  "order": 50,
+  "address": { "street": "TBD", "city": "TBD", "state": "FL" },
+  "internalNotes": ["DRAFT: future project. Add intake details, photos and map coordinates before setting status to active."]
+}

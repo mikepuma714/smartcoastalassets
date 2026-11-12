@@ -1,0 +1,70 @@
+{
+  "slug": "the-residences",
+  "name": "The Residences",
+  "status": "active",
+  "order": 30,
+  "tagline": "Waterfront Town Center living with boat slips",
+  "propertyType": "Waterfront condominium residences",
+  "address": { "street": "400 150th Avenue", "city": "Madeira Beach", "state": "FL", "zip": "33708" },
+  "geo": { "lat": 27.803446, "lng": -82.798876 },
+  "price": { "display": "From the $900Ks", "from": 900000, "label": "Move-in ready" },
+  "stats": {
+    "bedrooms": "3 (all en suite)",
+    "bathrooms": "3",
+    "sqft": "~1,800",
+    "residences": "27",
+    "completion": "Completed · Move-in ready"
+  },
+  "summary": "The Residences is a small community of 27 waterfront homes at 400 150th Avenue in Madeira Beach, completed, developer-owned and never occupied. Each three-bedroom, three-bath residence offers approximately 1,800 square feet with every bedroom en suite, and boat slips are available. It is part of the Madeira Beach Town Center master-planned community, walkable to the beach, shops, restaurants and The Beachmaker resort now under construction.",
+  "heroImage": { "src": "/projects/the-residences/gulf-view.webp", "alt": "Aerial view of The Residences on the Madeira Beach waterfront with the Gulf beyond" },
+  "gallery": [
+    { "src": "/projects/the-residences/gulf-view.webp", "alt": "Aerial view of The Residences and its boat basin in Madeira Beach" },
+    { "src": "/projects/the-residences/waterfront-community-pool.webp", "alt": "Waterfront community pool and hot tub at The Residences" },
+    { "src": "/projects/the-residences/main-living-area.webp", "alt": "Main living area inside a residence at The Residences" },
+    { "src": "/projects/the-residences/primary-bedroom.webp", "alt": "Primary en-suite bedroom at The Residences" },
+    { "src": "/projects/the-residences/rooftop-view.webp", "alt": "Rooftop lounge view at The Residences" }
+  ],
+  "highlights": [
+    { "icon": "gem", "title": "Town Center Living", "text": "Part of the Madeira Beach Town Center master-planned community, walkable to shops, dining, the beach and The Beachmaker resort." },
+    { "icon": "anchor", "title": "Waterfront + Boat Slips", "text": "Waterfront location with available boat slips. Developer-owned and never occupied." },
+    { "icon": "home", "title": "Flexible Use", "text": "30-day minimum rentals. Primary residence and homestead eligible, subject to buyer qualification." },
+    { "icon": "landmark", "title": "Tax Planning", "text": "Tax treatment depends on use. A CPA can advise on depreciation possibilities." },
+    { "icon": "trending-up", "title": "Income & Financing", "text": "$6,000–$10,000 per month on annual leases, based on current rental rates. Cash, conventional or DSCR financing." }
+  ],
+  "amenities": [
+    { "icon": "anchor", "label": "Available boat slips" },
+    { "icon": "waves", "label": "Waterfront setting with pool & hot tub" },
+    { "icon": "bed", "label": "Three en-suite bedrooms" },
+    { "icon": "compass", "label": "Walk to beach, shops, restaurants & groceries" },
+    { "icon": "paw", "label": "Pet friendly. No dog size limits" },
+    { "icon": "dumbbell", "label": "Fitness center, club room & rooftop lounge with panoramic views" }
+  ],
+  "details": {
+    "deposit": "$10,000",
+    "downPayment": "10%",
+    "financing": "Cash, conventional or DSCR financing (subject to underwriting)",
+    "dscr": true,
+    "rentalMinimum": "30 days",
+    "personalUse": "Primary residence / homestead eligible, subject to buyer qualification.",
+    "management": "No required management company; owners may self-manage. 30-day minimum, one rental per 30 days."
+  },
+  "income": {
+    "figure": "$6,000–$10,000 / month",
+    "label": "Annual-lease rental rates",
+    "source": "Current rental rates at the community",
+    "note": "Based on current residence rentals. Not guaranteed."
+  },
+  "tax": { "note": "Tax treatment depends on how you use the property. Ask your CPA whether you qualify for cost segregation or bonus depreciation." },
+  "faqs": [
+    { "q": "What is the minimum rental period at The Residences in Madeira Beach?", "a": "The minimum rental period is 30 days, with one rental per 30 days. Owners may self-manage; no management company is required." },
+    { "q": "Can I homestead a residence at The Residences?", "a": "Yes. Residences are primary residence and homestead eligible, subject to buyer qualification." },
+    { "q": "Are boat slips available at The Residences?", "a": "Yes. Boat slips are available at this waterfront community." },
+    { "q": "What does it take to buy at The Residences?", "a": "A $10,000 initial deposit and a 10% total down payment, with cash, conventional or DSCR financing subject to underwriting." },
+    { "q": "Is The Residences pet friendly?", "a": "Yes. The community is pet friendly with no dog size limit restrictions." }
+  ],
+  "lastVerified": "2026-11-09",
+  "internalNotes": [
+    "Intracoastal View photo in Drive is only 267x200px; excluded from gallery. Request a full-size version.",
+    "Brochure link in intake doc was a Google redirect URL; add the real URL when available."
+  ]
+}

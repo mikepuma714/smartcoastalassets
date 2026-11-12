@@ -134,20 +134,26 @@ export function CoastalMap({
       const rowStep = touch ? 44 : MIN_GAP;
       // Markers too close to tell apart are lined up eastward (inland) from the westernmost one,
       // so they never cover the town labels drawn over the Gulf.
+      // Large groups tighten (photos overlap) so the last marker stays inside the right edge.
       const spread = () => {
         const points = [...markers.values()]
           .map((marker) => ({ marker, pt: map.project(marker.getLngLat()) }))
           .sort((a, b) => a.pt.x - b.pt.x);
-        const groups: { x: number; y: number; size: number }[] = [];
-        for (const { marker, pt } of points) {
-          const group = groups.find((g) => Math.hypot(g.x - pt.x, g.y - pt.y) < MIN_GAP);
-          if (!group) {
-            groups.push({ x: pt.x, y: pt.y, size: 1 });
-            marker.setOffset([0, 0]);
-            continue;
-          }
-          marker.setOffset([group.x + group.size * rowStep - pt.x, group.y - pt.y]);
-          group.size += 1;
+        const groups: { x: number; y: number; members: typeof points }[] = [];
+        for (const point of points) {
+          const group = groups.find((g) => Math.hypot(g.x - point.pt.x, g.y - point.pt.y) < MIN_GAP);
+          if (group) group.members.push(point);
+          else groups.push({ x: point.pt.x, y: point.pt.y, members: [point] });
+        }
+        const mapWidth = map.getContainer().clientWidth;
+        for (const group of groups) {
+          const n = group.members.length;
+          const half = group.members[0].marker.getElement().offsetWidth / 2;
+          const room = mapWidth - 8 - half - group.x;
+          const step = n > 1 ? Math.max(rowStep * 0.6, Math.min(rowStep, room / (n - 1))) : 0;
+          group.members.forEach(({ marker, pt }, i) => {
+            marker.setOffset([group.x + i * step - pt.x, group.y - pt.y]);
+          });
         }
       };
       spread();

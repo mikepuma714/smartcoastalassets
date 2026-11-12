@@ -1,20 +1,65 @@
 {
   "slug": "coastal-elegance",
   "name": "Coastal Elegance at Snug Harbor",
-  "status": "draft",
+  "status": "active",
   "order": 40,
+  "tagline": "Five new waterfront residences with private boat slips",
+  "propertyType": "New elevated luxury two- and three-bedroom waterfront residences with available private boat slips",
   "address": { "street": "13655 Gulf Blvd", "city": "Madeira Beach", "state": "FL", "zip": "33708" },
+  "geo": { "lat": 27.7946, "lng": -82.7989 },
+  "price": { "display": "$1,600,000 – $3,200,000", "from": 1600000, "to": 3200000, "label": "Move-in ready" },
+  "stats": {
+    "bedrooms": "2–3",
+    "residences": "5",
+    "completion": "Completed · Move-in ready"
+  },
+  "summary": "Coastal Elegance at Snug Harbor is a collection of just five new, elevated luxury two- and three-bedroom waterfront residences at 13655 Gulf Blvd in Madeira Beach, with assigned private boat slips available. The building sits across the street from the beach and a short walk from John's Pass Village. Construction is complete and residences are move-in ready, with bulk packages available. Owners may rent for 1–7 day stays or use the home as a primary residence/homestead, subject to eligibility.",
   "heroImage": { "src": "/projects/coastal-elegance/front-of-building.webp", "alt": "Front of the Coastal Elegance at Snug Harbor building in Madeira Beach" },
   "gallery": [
-    { "src": "/projects/coastal-elegance/front-of-building.webp", "alt": "Front of the Coastal Elegance building" },
-    { "src": "/projects/coastal-elegance/dock-pool-rendering.webp", "alt": "Dock and pool rendering at Coastal Elegance" },
-    { "src": "/projects/coastal-elegance/gulf-view.webp", "alt": "Gulf view from Coastal Elegance" },
-    { "src": "/projects/coastal-elegance/intracoastal-view.webp", "alt": "Intracoastal view from Coastal Elegance" },
-    { "src": "/projects/coastal-elegance/living-open-401.webp", "alt": "Open living area in residence 401" },
-    { "src": "/projects/coastal-elegance/kitchen-401.webp", "alt": "Kitchen in residence 401" },
-    { "src": "/projects/coastal-elegance/primary-bedroom-401.webp", "alt": "Primary bedroom in residence 401" }
+    { "src": "/projects/coastal-elegance/front-of-building.webp", "alt": "Front of the Coastal Elegance at Snug Harbor building" },
+    { "src": "/projects/coastal-elegance/dock-pool-rendering.webp", "alt": "Private boat slips, dock and pool at Coastal Elegance at Snug Harbor" },
+    { "src": "/projects/coastal-elegance/gulf-view.webp", "alt": "Gulf view from Coastal Elegance at Snug Harbor" },
+    { "src": "/projects/coastal-elegance/intracoastal-view.webp", "alt": "Waterfront view from Coastal Elegance at Snug Harbor" },
+    { "src": "/projects/coastal-elegance/living-open-401.webp", "alt": "Open living area in Residence 401" },
+    { "src": "/projects/coastal-elegance/kitchen-401.webp", "alt": "Kitchen in Residence 401" },
+    { "src": "/projects/coastal-elegance/primary-bedroom-401.webp", "alt": "Primary bedroom in Residence 401" }
   ],
+  "highlights": [
+    { "icon": "anchor", "title": "Waterfront with Boat Slips", "text": "Brand new, with private boat slips, across from the Gulf and a quick walk to John's Pass Village." },
+    { "icon": "map-pin", "title": "Prime Location", "text": "Walk to John's Pass; across the street from the beach." },
+    { "icon": "home", "title": "STR Friendly", "text": "1–7 day rentals; may also serve as a primary residence/homestead, subject to eligibility." },
+    { "icon": "landmark", "title": "Tax Planning", "text": "Potential cost segregation and bonus depreciation for qualifying short-term-rental use. CPA review required." },
+    { "icon": "key", "title": "Flexible Financing", "text": "Cash, conventional, DSCR and investment loans, subject to lender approval." }
+  ],
+  "amenities": [
+    { "icon": "anchor", "label": "Assigned private boat slips" },
+    { "icon": "palm", "label": "Across the street from the beach" },
+    { "icon": "compass", "label": "Walkable to John's Pass" },
+    { "icon": "building", "label": "New elevated luxury construction" },
+    { "icon": "waves", "label": "Pool" }
+  ],
+  "details": {
+    "deposit": "$10,000",
+    "downPayment": "20%",
+    "financing": "Cash, conventional, DSCR or investment loans (subject to lender approval)",
+    "dscr": true,
+    "rentalMinimum": "1–7 days",
+    "personalUse": "Can be a primary residence/homestead or a permitted short-term rental."
+  },
+  "tax": { "note": "Eligible for cost segregation for investment buyers; potential bonus depreciation for qualifying short-term-rental use. CPA review required." },
+  "faqs": [
+    { "q": "Can Coastal Elegance at Snug Harbor be rented short term?", "a": "Yes. Residences permit 1–7 day rentals and may also serve as a primary residence/homestead, subject to eligibility." },
+    { "q": "Does Coastal Elegance at Snug Harbor include a boat slip?", "a": "Assigned private boat slips are available with the residences." },
+    { "q": "Is Coastal Elegance at Snug Harbor move-in ready?", "a": "Yes. Construction is complete and residences are move-in ready now. Bulk packages are available." },
+    { "q": "What deposit and financing are available at Coastal Elegance at Snug Harbor?", "a": "The initial deposit is $10,000 with a total down payment of 20%. Buyers may use cash, conventional, DSCR or investment loans, subject to lender approval." }
+  ],
+  "links": [
+    { "label": "Zillow listing (Residence 401)", "url": "https://www.zillow.com/homedetails/13655-Gulf-Blvd-401-Madeira-Beach-FL-33708/465357976_zpid/" }
+  ],
+  "lastVerified": "2026-10-09",
   "internalNotes": [
-    "DRAFT: waiting on intake write-up. Do not set to active until price, details and map coordinates are supplied."
+    "Intake 'Management restrictions' answer reads '1-7 days minimum' (looks copied from the rental field). Management field left blank until confirmed.",
+    "Still needed: bathrooms, square footage, floor plans. No revenue projection confirmed; income section intentionally omitted.",
+    "Intake says 'Gulf of America'; site copy uses 'the Gulf'."
   ]
 }

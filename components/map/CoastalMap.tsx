@@ -53,8 +53,10 @@ export function CoastalMap({
     (async () => {
       const maplibregl = await import("maplibre-gl");
       if (cancelled || !containerRef.current) return;
+      maplibregl.setWorkerUrl(`/vendor/maplibre-gl-worker.mjs?v=${maplibregl.getVersion()}`);
 
       const touch = window.matchMedia("(hover: none)").matches;
+      const width = containerRef.current.clientWidth;
       const map = new maplibregl.Map({
         container: containerRef.current,
         style: {
@@ -71,7 +73,9 @@ export function CoastalMap({
           layers: [{ id: "satellite", type: "raster", source: "satellite", paint: { "raster-saturation": -0.05 } }],
         },
         bounds: COAST_BOUNDS,
-        fitBoundsOptions: { padding: 24 },
+        fitBoundsOptions: {
+          padding: { top: 32, bottom: 32, right: 24, left: Math.min(170, Math.round(width * 0.38)) },
+        },
         maxBounds: [
           [-83.15, 27.55],
           [-82.45, 28.15],
@@ -127,24 +131,23 @@ export function CoastalMap({
       }
 
       const MIN_GAP = 54;
+      const rowStep = touch ? 44 : MIN_GAP;
+      // Markers too close to tell apart are lined up eastward (inland) from the westernmost one,
+      // so they never cover the town labels drawn over the Gulf.
       const spread = () => {
-        const slots: [number, number][] = [
-          [0, 0],
-          [0, -1],
-          [0, 1],
-          [1, 0],
-          [1, -1],
-          [1, 1],
-          [2, 0],
-        ];
-        const placed: { x: number; y: number }[] = [];
-        for (const marker of markers.values()) {
-          const pt = map.project(marker.getLngLat());
-          const free = (dx: number, dy: number) =>
-            placed.every((q) => Math.hypot(q.x - pt.x - dx, q.y - pt.y - dy) >= MIN_GAP);
-          const [sx, sy] = slots.find(([sx, sy]) => free(sx * MIN_GAP, sy * MIN_GAP)) ?? [0, 0];
-          marker.setOffset([sx * MIN_GAP, sy * MIN_GAP]);
-          placed.push({ x: pt.x + sx * MIN_GAP, y: pt.y + sy * MIN_GAP });
+        const points = [...markers.values()]
+          .map((marker) => ({ marker, pt: map.project(marker.getLngLat()) }))
+          .sort((a, b) => a.pt.x - b.pt.x);
+        const groups: { x: number; y: number; size: number }[] = [];
+        for (const { marker, pt } of points) {
+          const group = groups.find((g) => Math.hypot(g.x - pt.x, g.y - pt.y) < MIN_GAP);
+          if (!group) {
+            groups.push({ x: pt.x, y: pt.y, size: 1 });
+            marker.setOffset([0, 0]);
+            continue;
+          }
+          marker.setOffset([group.x + group.size * rowStep - pt.x, group.y - pt.y]);
+          group.size += 1;
         }
       };
       spread();

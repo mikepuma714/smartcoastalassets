@@ -5,6 +5,7 @@ import { Footer } from "@/components/layout/Footer";
 import { SmoothScroll } from "@/components/motion/SmoothScroll";
 import { JsonLd } from "@/components/JsonLd";
 import { organizationLd, websiteLd } from "@/lib/structured-data";
+import { getActiveProjects, toSummary } from "@/lib/projects";
 import { site } from "@/lib/site";
 import "./globals.css";
 
@@ -47,6 +48,11 @@ export const viewport: Viewport = {
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
+  const navProjects = getActiveProjects().map((p) => {
+    const { slug, name, town, price, image } = toSummary(p);
+    return { slug, name, town, price, image };
+  });
+
   return (
     <html lang="en" className={`${display.variable} ${sans.variable}`}>
       <body className="min-h-dvh">
@@ -59,7 +65,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <JsonLd data={organizationLd()} />
         <JsonLd data={websiteLd()} />
         <SmoothScroll />
-        <Header />
+        <Header projects={navProjects} />
         <main id="main">{children}</main>
         <Footer />
       </body>

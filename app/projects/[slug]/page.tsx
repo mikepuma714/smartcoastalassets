@@ -16,6 +16,8 @@ import { fullAddress, getActiveProjects, getProject, getPublicProjects, heroImag
 import { breadcrumbLd, faqLd, projectLd } from "@/lib/structured-data";
 import { site } from "@/lib/site";
 
+export const instant = false;
+
 export function generateStaticParams() {
   return getPublicProjects().map((p) => ({ slug: p.slug }));
 }
@@ -111,10 +113,10 @@ export default async function ProjectPage({ params }: PageProps<"/projects/[slug
               </span>
             )}
             <h1 className="text-5xl leading-[0.95] sm:text-6xl lg:text-7xl">{p.name}</h1>
-            <p className="mt-4 flex items-center gap-2 text-sm tracking-[0.14em] text-muted uppercase">
+            <div className="mt-4 flex items-center gap-2 text-sm tracking-[0.14em] text-muted uppercase">
               <MapPin className="size-4 shrink-0 text-gold-500" strokeWidth={1.5} />
               <address className="not-italic">{fullAddress(p)}</address>
-            </p>
+            </div>
           </div>
           {p.price && (
             <div className="lg:text-right">

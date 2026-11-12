@@ -13,19 +13,13 @@ export function MapSection({ projects }: { projects: ProjectSummary[] }) {
     <section id="map" aria-labelledby="map-heading" className="scroll-mt-20 bg-sand-50">
       <div className="grid lg:grid-cols-12">
         <div className="relative lg:col-span-5">
-          <div className="lg:sticky lg:top-0 lg:h-dvh">
+          <div className="lg:sticky lg:top-16 lg:h-[calc(100dvh-4rem)]">
             <CoastalMap
               projects={projects}
               activeSlug={active}
               onActiveChange={setActive}
-              className="h-[72vh] min-h-[460px] lg:h-full"
+              className="h-[72vh] min-h-[460px] lg:h-full lg:min-h-0"
             />
-            <div className="pointer-events-none absolute top-5 left-5 hidden text-white sm:block">
-              <p className="font-display text-2xl tracking-[0.1em] uppercase drop-shadow">Pinellas Coast</p>
-              <p className="mt-1 text-[0.6rem] tracking-[0.3em] uppercase text-white/80 drop-shadow">
-                Clearwater Beach to St. Pete Beach
-              </p>
-            </div>
             <Compass
               aria-hidden
               strokeWidth={1}

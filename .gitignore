@@ -37,6 +37,9 @@ yarn-error.log*
 # raw photo downloads (compressed copies live in public/projects)
 /assets-raw/
 
+# copied from node_modules at build time (scripts/copy-map-worker.mjs)
+/public/vendor/
+
 # local dev inquiry storage (when DATABASE_URL is not set)
 /.data/
 

@@ -45,7 +45,6 @@ export default function HomePage() {
   });
 
   const strCount = projects.filter((p) => /1–7|nightly/i.test(p.details.rentalMinimum ?? "")).length;
-  const towns = new Set(projects.map((p) => p.address.city)).size;
   const guides = getGuides().slice(0, 3);
   const faqTeaser = getMasterFaq().flatMap((g) => g.items).slice(0, 5);
 
@@ -77,14 +76,7 @@ export default function HomePage() {
       <JsonLd data={faqLd(faqTeaser)} />
 
       {heroImg && (
-        <HomeHero
-          image={{ ...heroImg, blurDataURL: imageMeta(heroImg.src)?.blurDataURL }}
-          stats={[
-            { value: String(projects.length), label: "Current developments" },
-            { value: String(towns), label: "Beach towns" },
-            { value: String(strCount), label: "Allow 1–7 day rentals" },
-          ]}
-        />
+        <HomeHero image={{ ...heroImg, blurDataURL: imageMeta(heroImg.src)?.blurDataURL }} />
       )}
 
       <section id="intro" aria-labelledby="intro-title" className="scroll-mt-20 bg-sand-50 py-24 sm:py-32">
@@ -106,15 +98,17 @@ export default function HomePage() {
             </Link>
           </Reveal>
         </div>
-        <ul className="container-luxe mt-20 grid gap-px overflow-hidden rounded-sm bg-sand-200 sm:grid-cols-2 lg:grid-cols-4">
-          {pillars.map((p, i) => (
-            <Reveal as="li" key={p.title} delay={i * 0.08} className="bg-sand-50 p-8">
-              <p.icon aria-hidden strokeWidth={1.1} className="size-9 text-gold-500" />
-              <h3 className="mt-6 text-2xl">{p.title}</h3>
-              <p className="mt-3 text-sm leading-relaxed text-muted">{p.text}</p>
-            </Reveal>
-          ))}
-        </ul>
+        <div className="container-luxe mt-20">
+          <ul className="grid gap-px overflow-hidden rounded-sm bg-sand-200 ring-1 ring-sand-200 sm:grid-cols-2 lg:grid-cols-4">
+            {pillars.map((p, i) => (
+              <Reveal as="li" key={p.title} delay={i * 0.08} className="bg-sand-50 p-8">
+                <p.icon aria-hidden strokeWidth={1.1} className="size-9 text-gold-500" />
+                <h3 className="mt-6 text-2xl">{p.title}</h3>
+                <p className="mt-3 text-sm leading-relaxed text-muted">{p.text}</p>
+              </Reveal>
+            ))}
+          </ul>
+        </div>
       </section>
 
       <MapSection projects={summaries} />
@@ -143,8 +137,8 @@ export default function HomePage() {
                 >
                   <Building2 aria-hidden strokeWidth={1.1} className="size-7 text-gold-500" />
                   <h3 className="mt-6 text-2xl leading-snug">{g.title}</h3>
-                  <p className="mt-3 line-clamp-4 flex-1 text-sm leading-relaxed text-muted">{g.answer}</p>
-                  <span className="mt-6 inline-flex items-center gap-2 text-xs font-semibold tracking-[0.2em] text-navy-800 uppercase">
+                  <p className="mt-3 line-clamp-4 text-sm leading-relaxed text-muted">{g.answer}</p>
+                  <span className="mt-auto inline-flex pt-6 items-center gap-2 text-xs font-semibold tracking-[0.2em] text-navy-800 uppercase">
                     Read guide <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
                   </span>
                 </Link>

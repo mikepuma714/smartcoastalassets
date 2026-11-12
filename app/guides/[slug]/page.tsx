@@ -8,6 +8,8 @@ import { getGuide, getGuides } from "@/lib/guides";
 import { breadcrumbLd, faqLd } from "@/lib/structured-data";
 import { site } from "@/lib/site";
 
+export const instant = false;
+
 export function generateStaticParams() {
   return getGuides().map((g) => ({ slug: g.slug }));
 }

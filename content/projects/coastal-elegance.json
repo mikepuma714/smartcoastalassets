@@ -4,16 +4,16 @@
   "status": "active",
   "order": 40,
   "tagline": "Five new waterfront residences with private boat slips",
-  "propertyType": "New elevated luxury two- and three-bedroom waterfront residences with available private boat slips",
+  "propertyType": "New elevated luxury three-bedroom waterfront residences with available private boat slips",
   "address": { "street": "13655 Gulf Blvd", "city": "Madeira Beach", "state": "FL", "zip": "33708" },
   "geo": { "lat": 27.7946, "lng": -82.7989 },
   "price": { "display": "$1,600,000 – $3,200,000", "from": 1600000, "to": 3200000, "label": "Move-in ready" },
   "stats": {
-    "bedrooms": "2–3",
+    "bedrooms": "3",
     "residences": "5",
     "completion": "Completed · Move-in ready"
   },
-  "summary": "Coastal Elegance at Snug Harbor is a collection of just five new, elevated luxury two- and three-bedroom waterfront residences at 13655 Gulf Blvd in Madeira Beach, with assigned private boat slips available. The building sits across the street from the beach and a short walk from John's Pass Village. Construction is complete and residences are move-in ready, with bulk packages available. Owners may rent for 1–7 day stays or use the home as a primary residence/homestead, subject to eligibility.",
+  "summary": "Coastal Elegance at Snug Harbor is a collection of just five new, elevated luxury three-bedroom waterfront residences at 13655 Gulf Blvd in Madeira Beach, with assigned private boat slips available. The building sits across the street from the beach and a short walk from John's Pass Village. Construction is complete and residences are move-in ready, with bulk packages available. Owners may rent for 1–7 day stays or use the home as a primary residence/homestead, subject to eligibility.",
   "heroImage": { "src": "/projects/coastal-elegance/front-of-building.webp", "alt": "Front of the Coastal Elegance at Snug Harbor building in Madeira Beach" },
   "gallery": [
     { "src": "/projects/coastal-elegance/front-of-building.webp", "alt": "Front of the Coastal Elegance at Snug Harbor building" },
